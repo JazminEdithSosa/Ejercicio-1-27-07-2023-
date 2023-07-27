@@ -1,0 +1,26 @@
+Imports System
+
+Module Program
+    Sub Main(args As String())
+        Dim variable As Integer
+        Console.WriteLine("Esto es un menú")
+        Do Until variable
+            Console.WriteLine("Opcion 1")
+            Console.WriteLine("Opcion 2")
+            Console.WriteLine("Opcion 3")
+            Console.WriteLine("Opcion 4")
+            Console.WriteLine("SALIR")
+            variable = Console.ReadLine
+            If variable = 1 Then
+                Console.WriteLine("Esta es la opcion 1")
+            ElseIf variable = 2 Then
+                Console.WriteLine("Esta es la opcion 2")
+            ElseIf variable = 3 Then
+                Console.WriteLine("Esta es la opcion 3")
+            ElseIf variable = 4 Then
+                Console.WriteLine("Esta es la opcion 4")
+            End If
+            Console.WriteLine("Adios")
+        Loop
+    End Sub
+End Module
