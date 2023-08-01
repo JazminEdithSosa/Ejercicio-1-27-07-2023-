@@ -5,22 +5,19 @@ Module Program
         Dim variable As Integer
         Console.WriteLine("Esto es un menú")
         Do Until variable
-            Console.WriteLine("Opcion 1")
-            Console.WriteLine("Opcion 2")
-            Console.WriteLine("Opcion 3")
-            Console.WriteLine("Opcion 4")
-            Console.WriteLine("SALIR")
+            Console.WriteLine("Coloque 1")
+            Console.WriteLine("Coloque 2")
+            Console.WriteLine("Coloque 3")
+            Console.WriteLine("Coloque 4 para cerrar")
             variable = Console.ReadLine
             If variable = 1 Then
-                Console.WriteLine("Esta es la opcion 1")
+                Console.WriteLine("Dato ingresado correctamente")
             ElseIf variable = 2 Then
-                Console.WriteLine("Esta es la opcion 2")
+                Console.WriteLine("Dato ingresado Incorrectamente")
             ElseIf variable = 3 Then
-                Console.WriteLine("Esta es la opcion 3")
-            ElseIf variable = 4 Then
-                Console.WriteLine("Esta es la opcion 4")
+                Console.WriteLine("Ingrese Su Nombre")
             End If
-            Console.WriteLine("Adios")
+            Console.WriteLine("Cerrar")
         Loop
     End Sub
 End Module
